@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Edu+SA+Beginner:wght@400;500&family=Montserrat:wght@300;400&family=Noto+Sans+Vithkuqi&family=Open+Sans&family=Poppins:wght@400;500;600&family=Raleway&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: url(images/gradient_green_blue.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: cover;
+}
+
+.navbar{
+    background: rgb(46, 44, 44);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+}
+
+.logo{
+    font-size: 15px;
+    color:rgb(137, 223, 226);
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav-links li{
+    margin: 0 50px;
+    font-size: 30px;
+    list-style-type: none;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: rgb(137, 223, 226);
+}
+
+.nav-links li a:hover{
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.anasayfa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.anasayfa_resim{
+    margin: 250px 90px;
+}
+
+@keyframes slideInLeft {
+    from{
+        transform: translateX(-300px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+
+.anasayfa_yazi{
+    margin: 150px 220px;
+    animation: slideInLeft 3s ease-in-out 0s infinite alternate none;
+    transform: translateX(-300px);
+    font-size: large;
+}
+
+.hakkimda{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.hakkimda_yazi{
+    margin: auto 110px;
+    background-color: rgba(174, 131, 189, 0.368);
+    padding: 30px 30px;
+    border-radius: 8px;
+    font-size: large;
+    transition: ease-in-out 0.4s;
+}
+
+.hakkimda_yazi:hover{
+    background-color:rgba(147, 89, 169, 0.375);
+    font-size: large;
+}
+
+.hakkimda_resim{
+  margin: 110px 70px;
+}
+
+.kutular1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.kutu1{
+    display: flexbox;
+    align-items:flex-end;
+    background-color: rgba(174, 131, 189, 0.368);
+    border-radius: 10px;
+    margin-top: 184px;
+    margin-left: 70px;
+    margin-right: 70px;
+    transition: ease-in-out 0.4s;
+}
+
+.kutu1:hover{
+    background-color:rgba(147, 89, 169, 0.375);
+}
+
+.kutu1_yazi{
+    margin: 15px 30px ;
+}
+.kutu1_yazi h3{
+    margin-left: 75px;
+}
+
+.kutu1-3:hover{
+    background-color:rgba(147, 89, 169, 0.375);
+}
+
+
+.kutu1-3{
+    display: flexbox;
+    align-items:flex-end;
+    background-color: rgba(174, 131, 189, 0.368);
+    border-radius: 10px;
+    margin-top: 184px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 10px 0px;
+    transition: ease-in-out 0.4s;
+}
+
+.kutu1_resim{
+    margin-top: 20px;
+    margin-left: 110px;
+}
+
+.kutu1-2_resim{
+    margin-top: 20px;
+    margin-left: 110px;
+}
+
+.kutu1-3_resim{
+    margin-top: 20px;
+    margin-left: 130px;
+}
+
+.kutular2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.kutu2:hover{
+    background-color:rgba(147, 89, 169, 0.375);
+}
+
+.kutu2{
+    display: flexbox;
+    align-items:flex-end;
+    background-color: rgba(174, 131, 189, 0.368);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 70px;
+    padding: 20px 30px;
+    transition: ease-in-out 0.4s;
+}
+.kutu2-2{
+    display: flexbox;
+    align-items:flex-end;
+    background-color: rgba(174, 131, 189, 0.368);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 20px 30px;
+    transition: ease-in-out 0.4s;
+}
+
+.kutu2-2:hover{
+    background-color:rgba(147, 89, 169, 0.375);
+}
+
+.kutu2-3{
+    display: flexbox;
+    align-items:flex-end;
+    background-color: rgba(174, 131, 189, 0.368);
+    border-radius: 10px;
+    margin-right: 72px;
+    margin-top: 10px;
+    padding: 20px 100px;
+    transition: ease-in-out 0.4s;
+}
+
+.kutu2-3:hover{
+    background-color:rgba(147, 89, 169, 0.375);
+}
+
+.kutu2_resim{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.kutu2-2_resim{
+    margin-top: 20px;
+    padding: 0px 80px;
+}
+
+.kutu2-3_resim{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#btk2-1{
+    margin-left: 60px;
+}
+
+#btk2-2{
+    text-align: center;
+}
+
+#btk2-3{
+    text-align: center;
+}
+
+@keyframes slideInLeftIletisim {
+    from{
+        transform: translateX(-300px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+
+.iletisim_tittle {
+    margin-top: 300px;
+    margin-left: 850px;
+    margin-bottom: 100px;
+    font-size: 25px;
+    animation: slideInLeftIletisim 3s ease-in-out 0s infinite alternate none;
+    transform: translateX(-300px);
+}
+
+.iletisim_resim{
+    margin-left: 50px;
+}
+
+.iletisim2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iletisim_linkler{
+    margin-right: 150px;
+}
+
+.child_iletisim{
+    margin: 30px 0px;
+    background-color: rgba(174, 131, 189, 0.368);
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.child_iletisim:hover{
+    background-color:rgba(147, 89, 169, 0.375);
+}
+
+.child_iletisim a{
+    color: rgb(209, 113, 151);
+    text-decoration: none;
+}
+
